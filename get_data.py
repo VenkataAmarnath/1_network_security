@@ -62,5 +62,3 @@ if __name__=="__main__":
     print("A")
     noofrecords=networobj.pushing_data_to_mongodb(records,DATABASE,COLLECTION)
     print(noofrecords)
-    
-
