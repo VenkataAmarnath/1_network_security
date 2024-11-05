@@ -16,3 +16,4 @@ def start_training():
 if __name__=='__main__':
     model_trainer=TrainingPipeline()
     model_trainer.run_pipeline()
+
