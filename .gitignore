@@ -4,3 +4,4 @@ logs
 networksecurity.egg-info
 Artifacts
 .cache
+network_security\logger\__pycache__

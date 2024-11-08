@@ -1,3 +1,6 @@
+# git rm -r --cached logs      understand usage
+
+
 import logging
 import os
 from datetime import datetime

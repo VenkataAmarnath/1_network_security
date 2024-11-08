@@ -5,6 +5,9 @@ python-dotenv
 pymongo
 pymongo[srv]
 scikit-learn
-
+ipykernel
+pyyaml
+dill
 
 -e .
+
