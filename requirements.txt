@@ -8,6 +8,9 @@ scikit-learn
 ipykernel
 pyyaml
 dill
+xgboost
+mlflow
+
 
 -e .
 

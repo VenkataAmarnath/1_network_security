@@ -24,11 +24,15 @@ class DataTransformationArtifact:
 
 @dataclass
 class ClassificationMetricArtifact:
-    pass
+    f1_score: float
+    precision_score: float
+    recall_score: float
 
 @dataclass
 class ModelTrainerArtifact:
-    pass
+    trained_model_file_path: str
+    train_metric_artifact: ClassificationMetricArtifact
+    test_metric_artifact: ClassificationMetricArtifact
 
 @dataclass
 class ModelEvaluationArtifact:
@@ -38,6 +42,3 @@ class ModelEvaluationArtifact:
 class ModelPusherArtifact:
     pass
 
-@dataclass
-class ClassificationMetricArtifact:
-    pass

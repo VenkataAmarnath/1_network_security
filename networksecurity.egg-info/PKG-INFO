@@ -14,3 +14,5 @@ Requires-Dist: scikit-learn
 Requires-Dist: ipykernel
 Requires-Dist: pyyaml
 Requires-Dist: dill
+Requires-Dist: xgboost
+Requires-Dist: mlflow
